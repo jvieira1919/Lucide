@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 img {
     float:left;
     width:50%;
@@ -8,10 +12,19 @@ img {
 
 h1 {
     color:yellow;
-    font-weight: bold;
+    padding-top:20px;
+    padding-bottom:20px;
+    background: orangered;
+    text-align: center;
+    border:5px dashed;
 }
 h2 { 
-    color:red;
+    color:orangered;
+    background: yellow;
+    padding-bottom:20px;
+    padding-top: 20px;
+    text-align: center;
+    border: 5px dashed;
 
 }
 
@@ -22,10 +35,9 @@ body {
 .right {
     float:left;
     width:50%;
-    font-size: 37px;
-    position: absolute;
-    left:51%;
-    top:18%;
+    font-size: 36px;
+    position: relative;
+    top:14%;
     color:brown;
     border:5px dotted red;
 }
@@ -42,7 +54,7 @@ footer {
     clear: both;
     padding-top:20px;
     font-size:22px;
-    color:green;
+    color:brown;
     background: orangered;
     text-align: center;
     padding-bottom: 20px;
@@ -50,7 +62,7 @@ footer {
 }
 
 a{
-    color:rgb(0, 80, 0);
+    color:white;
     font-weight: bold;
     font-size: 30px;
     text-decoration-style: double;
