@@ -1,12 +1,14 @@
 img {
     float:left;
     width:50%;
-    height:500px;
+    height:540px;
     position: relative;
+    border:5px dotted yellow;
 }
 
 h1 {
     color:yellow;
+    font-weight: bold;
 }
 h2 { 
     color:red;
@@ -23,8 +25,9 @@ body {
     font-size: 37px;
     position: absolute;
     left:51%;
-    top:17%;
+    top:18%;
     color:brown;
+    border:5px dotted red;
 }
 
 .clr {
@@ -38,4 +41,18 @@ body {
 footer {
     clear: both;
     padding-top:20px;
+    font-size:22px;
+    color:green;
+    background: orangered;
+    text-align: center;
+    padding-bottom: 20px;
+    border:3px dashed yellow;
+}
+
+a{
+    color:rgb(0, 80, 0);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration-style: double;
+    font-family: fantasy;
 }
