@@ -1,0 +1,41 @@
+img {
+    float:left;
+    width:50%;
+    height:500px;
+    position: relative;
+}
+
+h1 {
+    color:yellow;
+}
+h2 { 
+    color:red;
+
+}
+
+body {
+    background: goldenrod;
+}
+
+.right {
+    float:left;
+    width:50%;
+    font-size: 37px;
+    position: absolute;
+    left:51%;
+    top:17%;
+    color:brown;
+}
+
+.clr {
+    clear: both;
+    padding-top:20px;
+    font-size:24px;
+    color:beige;
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    padding-top:20px;
+}
