@@ -17,6 +17,7 @@ h1 {
     background: orangered;
     text-align: center;
     border:5px dashed;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 h2 { 
     color:orangered;
@@ -25,6 +26,8 @@ h2 {
     padding-top: 20px;
     text-align: center;
     border: 5px dashed;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
 
 }
 
@@ -48,6 +51,7 @@ body {
     font-size:24px;
     color:beige;
     text-align: justify;
+    font-family: 'Gotu', sans-serif;
 }
 
 footer {
